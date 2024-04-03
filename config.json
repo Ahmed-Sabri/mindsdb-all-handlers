@@ -1,0 +1,43 @@
+{
+    "permanent_storage": {
+        "location": "local"
+    },
+    "paths": {},
+    "log": {
+        "level": {
+            "console": "INFO",
+            "file": "DEBUG",
+            "db": "WARNING"
+        }
+    },
+    "debug": false,
+    "integrations": {},
+    "gui": {
+        "autoupdate": true
+    },
+    "auth":{
+        "http_auth_enabled": False,
+        "username": "mindsdb",
+        "password": "mindsdb"
+    },
+    "api": {
+        "http": {
+            "host": "localhost",
+            "port": "47334"
+        },
+        "mysql": {
+            "host": "localhost",
+            "port": "47335",
+            "database": "mindsdb",
+            "ssl": true
+        },
+        "mongodb": {
+            "host": "localhost",
+            "port": "47336",
+            "database": "mindsdb"
+        }
+    },
+    "cache": {
+        "type": "local"
+    }
+}
